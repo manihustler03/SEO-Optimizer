@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: white;
+}
+nav h1{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: monospace;
+    letter-spacing: 0.6px;
+    color: #8ea4b4;
+    text-underline-offset:initial;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav div h2{
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 0.8px;
+    color: #7b8f9d;
+}
+nav div button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    display:flex;
+    align-items: center;
+    gap: 4px;
+    letter-spacing: 0.5px;
+}
+

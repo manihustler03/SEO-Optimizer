@@ -1,0 +1,182 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+p {
+  color: rgb(207, 206, 206);
+  font-size: 14px;
+}
+h3 {
+  font-size: 15px;
+}
+h2 {
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+.rankpageop-main {
+  padding: 0 5rem;
+}
+.rankpageop-controls {
+  display: flex;
+  justify-content: space-between;
+}
+.rankpageop-controls h2 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1px;
+}
+.rankpageop-webinfo {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rankpageop-webinfo h2 {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.rankpageop-webname p {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.rankpageop-webintro p {
+  font-size: 15px;
+}
+
+.rankpageop-table-content ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.rankpageop-table-content h2 {
+  margin-bottom: 15px;
+}
+
+.rankpageop-table-content ul li {
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.rankpageop-table-content {
+  max-width: 600px;
+}
+
+.title-tag p {
+  font-size: 14px;
+}
+
+.rankpageop-onpage-result {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rankpageop-onpage-result > h2 {
+  background: linear-gradient(to right, #121e34, #09111f, #050a12);
+  padding: 10px 5px;
+}
+.rankpageop-onpage-result > div > h3 {
+  color: white;
+  letter-spacing: 3px;
+}
+.keyword-analysis {
+  background: linear-gradient(to right, #121e34, #09111f, #050a12);
+  padding: 10px 5px;
+}
+.performance h2 {
+  background: linear-gradient(to right, #121e34, #09111f, #050a12);
+  padding: 10px 5px;
+}
+.links h2 {
+  background: linear-gradient(to right, #121e34, #09111f, #050a12);
+  padding: 10px 5px;
+}
+
+.social-media-report > h2 {
+  background: linear-gradient(to right, #121e34, #09111f, #050a12);
+  padding: 10px 5px;
+}
+
+.social-media-report > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-top: 20px ;
+}
+.social-media-report > div div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.social-media-report div h3 {
+  letter-spacing: 4px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.rankpageop-table-content ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rankpageop-download{
+  display: flex;
+  align-items: center;
+  margin: 40px 0  20px 0;
+  gap: 50px;
+}
+.rankpageop-download form{
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.rankpageop-download form button{
+  background-color: transparent;
+}
+.rankpageop-download form button:active{
+  background-color: transparent;
+}
+.rankpageop-download form input{
+  background-color: transparent;
+  border:1px solid whitesmoke;
+  border-radius: 20px;
+  width: 15rem;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.rankpageop-download button{
+  padding: 10px 30px;
+  background-color: #09111f;
+  border: none;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.rankpageop-download button:active{
+  transform: scale(0.98);
+  background-color: #0e1728;
+}
+.send-email{
+  transition: all 0.5s;
+  color: rgb(168, 2, 2);
+}
+.send-email:active{
+  transform: translateX(10px);
+}
